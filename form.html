@@ -23,6 +23,10 @@
                 </div>
             </div>
         </div>
+        <div class="image_credit">
+            <p>Photo by <a href="https://unsplash.com/@mutecevvil?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Ahmed</a> on <a href="https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+            </p>
+        </div>
     </div>
                     <div class="right-side">
                         <div class="header">
@@ -32,35 +36,50 @@
                                 home. Sign up now for more information.</h1>
                         </div>
                             <div class="form">
+                                <p>Required fields are followed by <strong><span aria-label="required">*</span></strong>.</p>
                                     <div class="form_row">
                                         <div class="form_element">
-                                            <label for="first_name">First Name:</label>
+                                            <label for="first_name">First Name</label>
                                             <input type="text" id="first_name">
                                         </div>
                                         <div class="form_element">
-                                            <label for="last_name">Last Name:</label>
+                                            <label for="last_name">Last Name</label>
                                             <input type="text" id="last_name">
                                         </div>
                                     </div>
                                     <div class="form_row">
                                         <div class="form_element">
-                                            <label for="email">Email:</label>
-                                            <input type="email" id="email">
+                                            <label for="email" required>
+                                            <span>Email</span>
+                                            <strong><span aria-label="required">*</span></strong>
+                                            </label>
+                                            <input type="email" id="email" placeholder="xxxxx@xxxxx.xxx"><span></span>
                                         </div>
                                         <div class="form_element">
-                                            <label for="phone_number">Phone Number:</label>
+                                            <label for="phone_number">Phone Number</label>
                                             <input type="tel" id="phone_number">
                                         </div>
                                     </div>
                                     <div class="form_row">
                                         <div class="form_element">
-                                            <label for="password">Password:</label>
+                                            <label for="password">
+                                            <span>Password</span>
+                                            <strong><span aria-label="required">*</span></strong>
+                                            </label>
                                             <input type="password" id="password">
                                         </div>
                                         <div class="form_element">
-                                            <label for="confirm_password">Confirm password:</label>
+                                            <label for="confirm_password">
+                                            <span>Confirm password</span>
+                                            <strong><span aria-label="required">*</span></strong></label>
                                             <input type="password" id="confirm_password">
                                         </div>
+                                    </div>
+                                    <div class="form_row">
+                                        <div class="form_element">
+                                            <button type="submit">Create Account</button>
+                                        </div>
+                                    </div>
                                 </form>
 
 </div>
