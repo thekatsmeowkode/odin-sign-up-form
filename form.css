@@ -76,7 +76,7 @@ body, html {
 .header > h1 {
     margin-top:20px;
     color:#eaece8;
-    font-size:20px;
+    font-size:18px;
 }
 
 .form {
@@ -98,23 +98,24 @@ body, html {
     margin-bottom: 20px;
 }
 
-.form_row input[type='email']:invalid {
-    border: 1px solid #D55C5F;
-    box-shadow: none
-}
-
 .form_row button { 
     font-size: 16px;
     font-weight: bold;
-  
+    box-shadow: 2px 2px 5px grey;
     color: #FFFFFF;
     background-color: #2c1d3f;
-  
     border: none;
     border-radius: 3px;
-  
     padding: 10px 40px;
     cursor: pointer;
+}
+
+.form_row button:hover {
+    background-color: #7249a6;
+}
+
+.form_row button:active {
+    background-color:#ac77f2
 }
 
 label, input {
@@ -139,21 +140,20 @@ input {
     border-radius:2px;
 }
 
-
-input:invalid + span::after {
-    position: absolute;
-    content: "✖";
-    padding-left: 5px;
-  }
-  
-  input:valid + span::after {
-    position: absolute;
-    content: "✓";
-    padding-left: 5px;
-  }
-
-input:focus:valid {
+input:focus {
     border: 2px solid #455234;
     outline:none;
+    background-color: #e6f2d6;
+}
+
+input:focus:valid {
+
+}
+
+input:required:invalid {
+    border: 2px solid red;
+}
+
+input:required {
 
 }

@@ -35,7 +35,7 @@
                                 An imaginary, comprehensive guide to the best 3-day road trips within an hour of your
                                 home. Sign up now for more information.</h1>
                         </div>
-                            <div class="form">
+                            <divclass="form" id="form">
                                 <p>Required fields are followed by <strong><span aria-label="required">*</span></strong>.</p>
                                     <div class="form_row">
                                         <div class="form_element">
@@ -53,7 +53,7 @@
                                             <span>Email</span>
                                             <strong><span aria-label="required">*</span></strong>
                                             </label>
-                                            <input type="email" id="email" placeholder="xxxxx@xxxxx.xxx"><span></span>
+                                            <input type="email" id="email" placeholder="xxxxx@xxxxx.xxx" required>
                                         </div>
                                         <div class="form_element">
                                             <label for="phone_number">Phone Number</label>
@@ -66,18 +66,18 @@
                                             <span>Password</span>
                                             <strong><span aria-label="required">*</span></strong>
                                             </label>
-                                            <input type="password" id="password">
+                                            <input type="password" id="password" required>
                                         </div>
                                         <div class="form_element">
                                             <label for="confirm_password">
                                             <span>Confirm password</span>
                                             <strong><span aria-label="required">*</span></strong></label>
-                                            <input type="password" id="confirm_password">
+                                            <input type="password" id="confirm_password" required>
                                         </div>
                                     </div>
                                     <div class="form_row">
                                         <div class="form_element">
-                                            <button type="submit">Create Account</button>
+                                            <button type="submit" id="form">Create Account</button>
                                         </div>
                                     </div>
                                 </form>
