@@ -5,10 +5,10 @@ The goal for this project is to create a signup form for a fictional service as 
 
 Areas of learning focus:
 
-Color wheel theory
-Free stock image resources on the web & how to properly credit to artists
-Use of pseudoclasses
-More complex CSS selector usages integrated
-How to link external custom fonts to project using Google Fonts and downloading files/generating webkit
-Be mindful of accessibility features - very interested in this topic because of relevance to jobs
-How to integrate Javascript into form validation and password matching
+1 Color wheel theory
+2 Free stock image resources on the web & how to properly credit to artists
+3 Use of pseudoclasses
+4 More complex CSS selector usages integrated
+5 How to link external custom fonts to project using Google Fonts and downloading files/generating webkit
+6 Be mindful of accessibility features - very interested in this topic because of relevance to jobs
+7 How to integrate Javascript into form validation and password matching
